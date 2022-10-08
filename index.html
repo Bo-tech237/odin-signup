@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Javascript Test</title>
+        <script src="script.js" defer></script>
+    </head>
+    <body>
+        <div class="container">
+
+            <div class="bg-image">
+                <div class="logo-text">
+                    <img class="logo" src="/img/odin-logo.png" alt="">
+                    <p>ODIN</p>
+                </div>
+            </div>
+
+            <div class="form-control">
+                <p>This is a newly created website where you can have a lot of fun.</p>
+                <p>To get started, sign up.</p>
+                <form action="#">
+                    <div class="control">
+                        <label for="first-name">FIRST NAME</label><br>
+                        <input type="text" id="first-name" name="first-name" required>
+                    </div>
+                    <div class="control">
+                        <label for="last-name">LAST NAME</label><br>
+                        <input type="text" id="last-name" name="last-name" required>
+                    </div>
+                    <div class="control">
+                        <label for="email">EMAIL</label><br>
+                        <input type="email" id="email" name="email" placeholder="example@gmail.com" required>
+                    </div>
+                    <div class="control">
+                        <label for="tel">PHONE NUMBER</label><br>
+                        <input type="tel" id="tel" name="tel" minlength="9" maxlength="9" required>
+                    </div>
+                    <div class="control">
+                        <label for="password">PASSWORD</label><br>
+                        <input type="password" id="password" name="password" minlength="8" required>
+                    </div>
+                    <div class="control">
+                        <label for="password">PASSWORD CONFIRMATION</label><br>
+                        <input type="password" id="password" name="password" minlength="8" required>
+                    </div>
+                </form>
+                <button type="submit">Create Account</button>
+                <h2>Already have an account? <span><a href="#">log in</a></span></h2>
+            </div>
+
+        </div>
+        
+    </body>
+</html>
