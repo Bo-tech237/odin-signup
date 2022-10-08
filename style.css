@@ -139,7 +139,7 @@ button:hover {
     position: relative;
     width: 40%;
     height: 150vh;
-    background-image: url("../img/arsenal.jpg");
+    background-image: url(/img/arsenal.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center top;
