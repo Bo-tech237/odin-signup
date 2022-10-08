@@ -143,6 +143,7 @@ button:hover {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center top;
+    background-color: #b32f2f;
     color: #fff;
 }
 
