@@ -21,30 +21,37 @@
             <div class="form-control">
                 <p>This is a newly created website where you can have a lot of fun.</p>
                 <p>To get started, sign up.</p>
-                <form action="#">
+                <p id="submit-success" class="submit-success hidden">🎉 Form submitted successfully!</p>
+                <form  novalidate>
                     <div class="control">
                         <label for="first-name">FIRST NAME</label><br>
                         <input type="text" id="first-name" name="first-name" required>
+                        <p class="error" id="first-name-error"></p>
                     </div>
                     <div class="control">
                         <label for="last-name">LAST NAME</label><br>
                         <input type="text" id="last-name" name="last-name" required>
+                        <p class="error" id="last-name-error"></p>
                     </div>
                     <div class="control">
                         <label for="email">EMAIL</label><br>
                         <input type="email" id="email" name="email" placeholder="example@gmail.com" required>
+                        <p class="error" id="email-error"></p>
                     </div>
                     <div class="control">
                         <label for="tel">PHONE NUMBER</label><br>
                         <input type="tel" id="tel" name="tel" minlength="9" maxlength="9" required>
+                        <p class="error" id="tel-error"></p>
                     </div>
                     <div class="control">
                         <label for="password">PASSWORD</label><br>
                         <input type="password" id="password" name="password" minlength="8" required>
+                        <p class="error" id="password-error"></p>
                     </div>
                     <div class="control">
-                        <label for="password">PASSWORD CONFIRMATION</label><br>
-                        <input type="password" id="password" name="password" minlength="8" required>
+                        <label for="confirmPassword">PASSWORD CONFIRMATION</label><br>
+                        <input type="password" id="confirmPassword" name="password" minlength="8" required>
+                        <p class="error" id="confirmPassword-error"></p>
                     </div>
                     <div class="control">
                         <button type="submit">Create Account</button>

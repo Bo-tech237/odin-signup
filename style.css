@@ -70,8 +70,12 @@ svg {
 }
 
 p {
-    font-family: customFont, sans-serif;
     font-size: 2rem;
+}
+
+.error {
+    font-size: 1rem;
+    max-width: 40ch;
 }
 
 .container {
@@ -93,15 +97,12 @@ input {
     border-radius: 5px;
 }
 
-input:focus {
-    outline-color: #00f;
-}
-
 input:invalid {
-    border-color: #f00;
+    outline-color: #f00;
 }
 
 input:valid {
+    outline-color: #008000;
     border-color: #008000;
 }
 
@@ -113,6 +114,14 @@ form {
     grid-template-columns: repeat(2, 1fr);
     row-gap: 20px;
     column-gap: 2px;
+}
+
+.submit-success {
+    background-color: #008000;
+}
+
+.hidden {
+    display: none;
 }
 
 label {
